@@ -7,4 +7,9 @@
     background-color: #CDDDDD;
     color: #2E2F2F;
     font-family: 'Merriweather', sans-serif;
+    font-size: 1.1rem;
+} 
+
+.navbar-brand {
+    letter-spacing: -1.5px;
 }
