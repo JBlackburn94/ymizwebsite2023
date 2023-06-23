@@ -11,6 +11,13 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Your Misery</title>
   </head>
   <body>
@@ -18,18 +25,18 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a href="#" class="navbar-brand">Your Misery</a>
+      <div class="container-fluid nav-inner">
+        <a href="#" class="navbar-brand nav-inner">Your Misery</a>
         <button
           type="button"
-          class="navbar-toggler"
+          class="navbar-toggler nav-inner"
           data-bs-toggle="collapse"
           data-bs-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon nav-inner"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <div class="navbar-nav">
+        <div class="collapse navbar-collapse nav-inner" id="navbarCollapse">
+          <div class="navbar-nav nav-inner">
             <a href="#" class="nav-item nav-link">Home</a>
             <a href="#" class="nav-item nav-link">Music</a>
             <a href="#" class="nav-item nav-link">Videos</a>
@@ -38,6 +45,28 @@
         </div>
       </div>
     </nav>
+
+    <!-- Latest News -->
+    <div class="artwork-container">
+      <img
+        src="assets/imgs/YOURMISERYLOGOBLACK (2).png"
+        alt="Your Misery Logo"
+        class="logo"
+      />
+      <button type="button" class="btn btn-dark">
+        <a
+          class="header-link"
+          href="https://open.spotify.com/artist/7qJanCPQlXfO9DajSlDR2n"
+          target="_blank"
+          >Listen Now!</a
+        >
+      </button>
+      <img
+        src="assets/imgs/YOURMISERY_SHALLOWLIFE_ARTWORK.jpg"
+        class="artwork"
+        alt="The artwork for Shallow Life by Your Misery"
+      />
+    </div>
     <!-- Scripts -->
     <script src="script.js"></script>
     <script
